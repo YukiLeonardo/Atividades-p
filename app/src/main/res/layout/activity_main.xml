@@ -37,4 +37,17 @@
         tools:ignore="TouchTargetSizeCheck"
         android:autofillHints="" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="128dp"
+        android:onClick="Salvar"
+        android:text="@string/salvar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_nome" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,13 +9,16 @@ import android.widget.TextView;
 
 public class SegundaActivity extends AppCompatActivity {
     TextView msgNome;
+    private String nome;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segunda);
         msgNome = findViewById(R.id.id_msgNome);
-        String nome = getIntent().getStringExtra("Nome");
-        msgNome.setText(nome);
+        Intent it  = getIntent();
+        nome = (it.getStringExtra("Nome"));
+
+        msgNome.setText(nome + ".\n Tudo bem ?");
 
     }
     public void next2 (View view){

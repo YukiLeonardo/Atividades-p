@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         nome = findViewById(R.id.id_nome);
 
     }
-    public void next (View view){
+    public void Salvar (View view){
         Intent it = new Intent(this, SegundaActivity.class);
-        it.putExtra("Nome", nome.getText());
+        it.putExtra("Nome", nome.getText().toString());
         startActivity(it);
 
     }
