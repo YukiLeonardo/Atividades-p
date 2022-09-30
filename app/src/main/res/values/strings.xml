@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello</string>
+    <string name="hint_informe_seu_nome">Informe Seu Nome!</string>
+    <string name="ol_quem_voce">Olá quem é voce?</string>
+</resources>
